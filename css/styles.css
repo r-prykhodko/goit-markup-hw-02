@@ -1,17 +1,28 @@
 :root {
+    --clr-white: #fff;
+    --clr-slate: #434455;
+    --clr-iris: #4d5ae5;
+    --clr-navy-blue: #2E2F42;
+    --clr-cloud: #F4F4FD;
+    --clr-ocean: #404BBF;
 
 
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #fff;
+    background-color: var(--clr-white);
     font-style: normal;
-    color: #434455;
+    color: var(--clr-slate);
 }
 
 .logo {
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-family: 'Raleway';
@@ -20,17 +31,17 @@ body {
     font-size: 18px;
     line-height: 1.17em;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
+    color: var(--clr-iris);
 
 }
 
 
 
 .logo-span-studio {
-    color: #2e2f42;
+    color: var(--clr-navy-blue);
 }
 .logo-span-studio-white {
-    color: #F4F4FD;
+    color: var(--clr-cloud);
 }
 
 .navigation {
@@ -38,7 +49,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5em;
-    color: #2E2F42;
+    color: var(--clr-navy-blue);
     letter-spacing: 0.02em;
 
 }
@@ -53,12 +64,11 @@ body {
 /* effective-solutions */
 
 .effective-solutions {
-    background: #2E2F42;
-
+    background: var(--clr-navy-blue);
 }
 
 .effective-solutions-text {
-    color: #fff;
+    color: var(--clr-white);
 }
 
 .btn {
@@ -68,21 +78,22 @@ body {
     top: 20px;
     
     /* IRIS */
-    color: #fff;
-    background: #4D5AE5;
+    color: var(--clr-white);
+    background: var(--clr-iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
-.btn:hover {
+.btn:hover,
+:focus {
     width: 169px;
     height: 56px;
     left: 20px;
     top: 88px;
 
     /* OCEAN */
-    color: #fff;
-    background: #404BBF;
+    color: var(--clr-white);
+    background: var(--clr-ocean);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -98,7 +109,7 @@ body {
 
     /* SLATE */
 
-    color: #434455;
+    color: var(--clr-slate);
 }
 
 .footer-p {
@@ -111,13 +122,13 @@ body {
 
     /* CLOUD */
 
-    color: #F4F4FD;
+    color: var(--clr-cloud);
 }
 
 .bottom {
-    background: #2E2F42;
+    background: var(--clr-navy-blue);
 }
 
 .bottom-p {
-    color: #fff;
+    color: var(--clr-white);
 }
