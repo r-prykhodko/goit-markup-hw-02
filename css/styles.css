@@ -72,14 +72,16 @@ body {
 }
 
 .btn {
-    width: 169px;
-    height: 56px;
-    left: 20px;
-    top: 20px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     
     /* IRIS */
-    color: var(--clr-white);
-    background: var(--clr-iris);
+    background-color: var(--clr-cloud);
+    color: var(--clr-iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -100,15 +102,9 @@ body {
 
 
 .about-us-p {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-
+    line-height: 1.5;
     letter-spacing: 0.02em;
-
-    /* SLATE */
-
     color: var(--clr-slate);
 }
 
@@ -131,4 +127,9 @@ body {
 
 .bottom-p {
     color: var(--clr-white);
+}
+
+.p-our-team {
+    
+    
 }
