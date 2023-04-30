@@ -69,6 +69,28 @@ body {
 
 .effective-solutions-text {
     color: var(--clr-white);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.address-style {
+    color: var(--clr-slate);
+}
+
+.address-style:hover,
+:focus {
+    color: var(--clr-ocean);
+}
+
+.link-style-nav {
+    color: var(--clr-navy-blue);
+}
+
+.link-style-nav:hover,
+:focus {
+    color: var(--clr-ocean);
 }
 
 .btn {
