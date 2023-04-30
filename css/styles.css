@@ -145,6 +145,7 @@ body {
 
 .bottom {
     background: var(--clr-navy-blue);
+    
 }
 
 .bottom-p {
@@ -157,5 +158,5 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--clr-navy-blue);
-    
+
 }
