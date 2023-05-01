@@ -176,7 +176,7 @@ body {
     color: var(--clr-white);
 }
 
-.h2-portfolio {
+.h-two-portfolio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -184,7 +184,7 @@ body {
     color: var(--clr-navy-blue);
 
 }
-.h3-main {
+.h-three-main {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -192,7 +192,7 @@ body {
     color: var(--clr-navy-blue);
 }
 
-.h2-list-img {
+.h-two-list-img {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
