@@ -178,4 +178,6 @@ body {
 
 .our-team-section {
     background-color: var(--clr-cloud);
+    letter-spacing: 0.02em;
+    background-color: var(--clr-white);
 }
