@@ -118,6 +118,31 @@ body {
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; */
 }
+
+
+.btn-portfolio {
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--clr-cloud);
+    color: var(--clr-iris);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  
+
+    /* OCEAN */
+    color: var(--clr-white);
+    background: var(--clr-ocean);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; */
+}
 .about-us {
 
 }
